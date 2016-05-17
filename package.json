@@ -1,0 +1,19 @@
+{
+  "name": "ui-design-task",
+  "version": "0.0.1",
+  "description": "Create mock website UI from wireframe",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gbbns.github.com/sbs-design.git"
+  },
+  "author": "Chris Gibbons",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gbbns.github.com/sbs-design/issues"
+  },
+  "homepage": "https://github.com/gbbns.github.com/sbs-design#readme"
+}
