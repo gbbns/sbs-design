@@ -1,7 +1,7 @@
-var gutil         = require('gulp-util');
-var sass          = require('gulp-sass');
-var autoprefixer  = require('autoprefixer');
-var stylelint     = require('stylelint');
+import gutil         from 'gulp-util';
+import sass          from 'gulp-sass';
+import autoprefixer  from 'autoprefixer';
+import stylelint     from 'stylelint';
 
 module.exports = function (gulp, config, argv) {
 

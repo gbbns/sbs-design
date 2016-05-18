@@ -2,22 +2,25 @@
   "name": "ui-design-task",
   "version": "0.0.1",
   "description": "Create mock website UI from wireframe",
-  "main": "gulpfile.js",
+  "main": "gulpfile.babel.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gbbns/sbs-design.git"
   },
   "author": "Chris Gibbons",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/gbbns/sbs-design/issues"
   },
   "homepage": "https://github.com/gbbns/sbs-design#readme",
   "devDependencies": {
     "autoprefixer": "^6.2.3",
+    "babel-core": "^6.9.0",
+    "babel-preset-es2015": "^6.9.0",
     "browser-sync": "^2.12.3",
     "del": "^2.2.0",
     "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.1",
     "gulp-clean-css": "^2.0.7",
     "gulp-concat": "^2.6.0",
     "gulp-jshint": "^2.0.1",
@@ -29,5 +32,10 @@
     "run-sequence": "^1.1.5",
     "stylelint": "^6.0.0",
     "yargs": "^4.7.1"
+  },
+  "babel": {
+    "presets": [
+      "es2015"
+    ]
   }
 }

@@ -1,4 +1,4 @@
-var del = require('del');
+import del from 'del';
 
 module.exports = function (gulp, config, argv) {
   gulp.task('clean', function () {
