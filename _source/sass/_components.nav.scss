@@ -1,0 +1,16 @@
+// Main navigation compenent partial
+
+.c-nav {}
+
+  .c-nav-primary {}
+
+    .c-nav-primary__item {
+      display: inline-block;
+    }
+
+    .c-nav-primary__link {
+      display: block;
+      
+    }
+
+  .c-nav-secondary {}

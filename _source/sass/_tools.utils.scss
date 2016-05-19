@@ -1,0 +1,35 @@
+// Debugging utility belt
+
+//* {
+//	outline: 1px solid $c-brand-primary;
+//}
+
+.clearfix:before,
+.clearfix:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+
+.u {
+
+  &-element--left {
+    float: left;
+  }
+
+  &-element--right {
+    float: right;
+  }
+
+  &-text--center {
+    text-align: center;
+  }
+
+  &-display--block {
+    display: block;
+  }
+}
