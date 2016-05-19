@@ -32,6 +32,10 @@ gulp.task('watch', function () {
   gulp.watch([
     config.paths.source.sass + '/**/*.scss'
   ], ['styles']);
+
+  gulp.watch([
+    config.paths.source.base + '/**/*.html'
+  ], ['html']);
 });
 
 gulp.task('default', function (callback) {
