@@ -2,10 +2,8 @@ import del from 'del';
 
 module.exports = function (gulp, config, argv) {
   gulp.task('clean', function () {
-    if (!argv.prod) {
-      return del([
-        config.paths.build.base
-      ]);
-    }
+    return del([
+      config.paths.build.base
+    ]);
   });
 };
