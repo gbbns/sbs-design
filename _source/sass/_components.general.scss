@@ -1,0 +1,12 @@
+.c-site {}
+
+  .c-site__logo {
+    display: inline-block;
+    vertical-align: middle;
+  }
+  
+  .c-site__tagline {
+    display: inline-block;
+    margin-left: $d-base-spacing;
+    vertical-align: middle;
+  }

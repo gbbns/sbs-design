@@ -1,11 +1,10 @@
-a:not([class]) {
+a {
 	// color: ;
 	text-decoration: none;
 	transition: border-bottom-color 0.25s;
 
 	&:hover {
-    border-bottom: 1px solid;
-    // color:;
+		// text-decoration: underline;
 	}
 }
 
