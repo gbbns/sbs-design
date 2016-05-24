@@ -1,9 +1,48 @@
-.social-link {}
+.c-social__wrapper {
+  @include respond-min($d-bp-medium) {
+    padding: 0;
+    text-align: center;
+    width: 25%;
+  }
+}
 
-  .social-link__icon {
+  .c-social__link {
+    display: inline-block;
+    padding: ($d-base-spacing / 2) 0;
+    text-align: center;
+    width: 30%;
+
+    @include respond-max($d-bp-medium) {
+
+    }
+  }
+
+  .c-social-link__icon {
     font-size: rem(30px);
 
-    @include respond-min($d-bp-medium){
+    @include respond-min($d-bp-medium) {
       font-size: rem(50px);
+    }
+  }
+
+  .fa-facebook-official {
+    color: $c-social--facebook;
+
+    &:hover {
+      color: darken($c-social--facebook, 15%)
+    }
+  }
+
+  .fa-twitter-square {
+    color: $c-social--twitter;
+    &:hover {
+      color: darken($c-social--twitter, 15%)
+    }
+  }
+
+  .fa-google-plus-square {
+    color: $c-social--gplus;
+    &:hover {
+      color: darken($c-social--gplus, 15%)
     }
   }
