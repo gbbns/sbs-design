@@ -41,6 +41,7 @@ gulp.task('watch', function () {
 gulp.task('default', function (callback) {
   runSeq(
     'clean',
+    'fonts',
     'styles',
     'html',
     'watch',

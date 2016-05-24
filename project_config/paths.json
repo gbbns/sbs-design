@@ -1,6 +1,8 @@
 {
   "build": {
     "base": "./build/",
+    "assets": "./build/assets",
+    "fonts": "./build/assets/fonts/",
     "styles": "./build/assets/styles/",
     "scripts": "./build/assets/scripts/",
     "images": "./build/assets/images/"
@@ -10,6 +12,7 @@
     "sass": "./_source/sass/",
 		"sass_main": "./_source/sass/main.scss",
     "scripts": "./_source/scripts/",
-    "images": "./_source/images/"
+    "images": "./_source/images/",
+    "fonts": "./_source/fonts/"
   }
 }
