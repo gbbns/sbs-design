@@ -1,4 +1,30 @@
 $f-family: sans-serif;
-$f-family-heading: 'Georgia', Times, Times New Roman, serif;
+$f-family-heading: 'Mary Ann', Times, Times New Roman, serif;
 
 $f-base-px: 16px;
+
+@font-face {
+  font-family:MaryAnn;
+  src:url(/assets/fonts/mary_ann_web-regular.woff);
+  font-weight:400;
+  font-style:normal;
+}
+@font-face {
+  font-family:MaryAnn;
+  src:url(/assets/fonts/mary_ann_web-medium.woff);
+  font-weight:500;
+  font-style:normal;
+}
+@font-face {
+  font-family:MaryAnn;
+  src:url(/assets/fonts/mary_ann_web-bold.woff);
+  font-weight:700;
+  font-style:normal;
+}
+
+@font-face {
+  font-family:MaryAnn;
+  src:url(/assets/fonts/mary_ann_web-light.woff);
+  font-weight:100;
+  font-style:normal;
+}
