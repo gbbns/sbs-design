@@ -57,33 +57,34 @@
   }
 
   .c-nav-primary__nav-trigger {
-    display: block;
-    text-align: center;
-    margin: 0 auto;
-    width: 90%;
-    -webkit-appearance: none;
-    -moz-appearance:    none;
-    appearance:         none;
-
-    &:after {
-      border: 1px solid $c-wireframe--borders;
-      content: 'Menu';
+    @include respond-max($d-bp-medium) {
       display: block;
-      font-family: $f-family-heading;
-      margin: 20px 0;
-      padding: 10px;
-    }
+      text-align: center;
+      margin: 0 auto;
+      width: 90%;
+      -webkit-appearance: none;
+      -moz-appearance:    none;
+      appearance:         none;
 
-    &:checked {
       &:after {
-        content: 'Close menu';
+        border: 1px solid $c-wireframe--borders;
+        content: 'Menu';
+        display: block;
+        font-family: $f-family-heading;
+        margin: 20px 0;
+        padding: 10px;
+      }
+
+      &:checked {
+        &:after {
+          content: 'Close menu';
+        }
+      }
+
+      &:checked ~ .c-nav-primary {
+        display: block;
       }
     }
-
-    &:checked ~ .c-nav-primary {
-      display: block;
-    }
-
     @include respond-min($d-bp-medium) {
       display: none;
     }
