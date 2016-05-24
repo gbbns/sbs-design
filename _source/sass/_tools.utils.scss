@@ -39,3 +39,9 @@
     display: none;
   }
 }
+
+.u-hide--lrg {
+  @include respond-min($d-bp-medium) {
+    display: none;
+  }
+}
