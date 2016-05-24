@@ -14,10 +14,6 @@
 
 // Site elements
 @import 'elements.sbs-reset';
-// @import 'elements.headings';
-// @import 'elements.images';
-// @import 'elements.links';
-// @import 'elements.misc';
 
 // Site objects
 @import "objects.grid";
@@ -26,7 +22,5 @@
 // Site components
 @import 'components.header';
 // @import 'components.footer';
-// @import 'components.meta';
 @import 'components.nav';
-
-// AOB
+@import 'components.article';
