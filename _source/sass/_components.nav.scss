@@ -1,16 +1,38 @@
 // Main navigation compenent partial
 
-.c-nav {}
+.c-nav__wrapper {
+  background: $c-wireframe--grey;
+  border: 1px solid ¢c-wireframe--borders;
+}
 
-  .c-nav-primary {}
+  .c-nav-primary {
+
+    @include respond-min($d-bp-medium) {
+      display: flex;
+      flex-wrap: nowrap;
+      flex-direction: row;
+      margin: 0;
+    }
+  }
 
     .c-nav-primary__item {
-      display: inline-block;
+      display: block;
+
+      @include respond-min($d-bp-medium) {
+        flex: 1 1 100%;
+        text-align: center;
+        list-style: none;
+      }
     }
 
     .c-nav-primary__link {
+      box-sizing: border-box;
       display: block;
-      
+
+      @include respond-min($d-bp-medium) {
+        font-size: rem(20px);
+        padding: rem(12px);
+      }
     }
 
   .c-nav-secondary {}
