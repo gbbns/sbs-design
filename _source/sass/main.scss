@@ -2,6 +2,7 @@
 @import 'settings.colors';
 @import 'settings.dimensions';
 @import 'settings.fonts';
+@import 'settings.font-awesome';
 
 // Sass tools
 @import 'tools.functions';
@@ -24,3 +25,4 @@
 @import 'components.footer';
 @import 'components.nav';
 @import 'components.article';
+@import 'components.social';
