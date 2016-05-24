@@ -33,3 +33,9 @@
     display: block;
   }
 }
+
+.u-hide--sml {
+  @include respond-max($d-bp-medium) {
+    display: none;
+  }
+}
