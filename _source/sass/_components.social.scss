@@ -2,4 +2,8 @@
 
   .social-link__icon {
     font-size: rem(30px);
+
+    @include respond-min($d-bp-medium){
+      font-size: rem(50px);
+    }
   }
