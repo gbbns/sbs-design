@@ -10,7 +10,16 @@
 
   .c-article__heading {
     font-family: $f-family-heading;
-    margin: 0;
+    font-size: rem(34px);
+    line-height: 1;
+    margin: 0 0 ($d-base-spacing / 2);
+
+    @include respond-max($d-bp-medium) {
+      margin-top: $d-base-spacing / 2;
+    }
+    @include respond-min($d-bp-medium) {
+      font-size: rem(40px);
+    }
   }
 
   .c-article__meta {
@@ -19,9 +28,21 @@
   }
 
   .c-article__stacked {
+    margin-bottom: $d-base-spacing;
 
+    .c-article__heading {
+      font-size: rem(28px);
+    }
   }
 
   .c-article__mini {
 
+  }
+
+  .c-article__supporting-links {
+    margin-top: $d-base-spacing;
+
+    .c-article__heading {
+      font-size: rem(20px);
+    }
   }
