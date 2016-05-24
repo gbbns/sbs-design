@@ -25,24 +25,33 @@
     }
   }
 
-  .fa-facebook-official {
+  .fa-facebook-square {
     color: $c-social--facebook;
 
-    &:hover {
+    &:hover,
+    &:focus,
+    &:active,
+    &:visited {
       color: darken($c-social--facebook, 15%)
     }
   }
 
   .fa-twitter-square {
     color: $c-social--twitter;
-    &:hover {
+    &:hover,
+    &:focus,
+    &:active,
+    &:visited {
       color: darken($c-social--twitter, 15%)
     }
   }
 
   .fa-google-plus-square {
     color: $c-social--gplus;
-    &:hover {
+    &:hover,
+    &:focus,
+    &:active,
+    &:visited {
       color: darken($c-social--gplus, 15%)
     }
   }
