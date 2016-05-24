@@ -4,9 +4,15 @@
     display: inline-block;
     vertical-align: middle;
   }
-  
+
   .c-site__tagline {
     display: inline-block;
+    font-family: $f-family-heading;
+    font-style: italic;
     margin-left: $d-base-spacing;
     vertical-align: middle;
+
+    @include respond-max($d-bp-medium) {
+      font-size: rem(30px);
+    }
   }
