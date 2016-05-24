@@ -1,5 +1,22 @@
-.c-article {}
+.c-article {
 
+}
+
+  .c-article__hero {
+    display: block;
+    max-width: 100%;
+    width: 100%;
+  }
+
+  .c-article__heading {
+    font-family: $f-family-heading;
+    margin-bottom: 0;
+  }
+
+  .c-article__meta {
+    font-size: rem(14px);
+    margin-bottom: rem(10px);
+  }
 
   .c-article__stacked {
 
@@ -7,9 +24,4 @@
 
   .c-article__mini {
 
-  }
-
-  .c-article__hero {
-    display: block;
-    max-width: 100%;
   }
