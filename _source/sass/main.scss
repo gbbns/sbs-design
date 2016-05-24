@@ -1,5 +1,5 @@
 // Site settings
-// @import 'settings.colors';
+@import 'settings.colors';
 @import 'settings.dimensions';
 @import 'settings.fonts';
 
@@ -21,6 +21,6 @@
 
 // Site components
 @import 'components.header';
-// @import 'components.footer';
+@import 'components.footer';
 @import 'components.nav';
 @import 'components.article';
