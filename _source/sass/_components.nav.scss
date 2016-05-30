@@ -11,6 +11,7 @@
     }
 
     @include respond-min($d-bp-medium) {
+      display: -ms-flexbox;
       display: flex;
       flex-wrap: nowrap;
       flex-direction: row;
