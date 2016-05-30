@@ -22,6 +22,7 @@ const config = {
 require('./project_tasks/clean.js')(gulp, config, argv);
 require('./project_tasks/html.js')(gulp, config, argv);
 require('./project_tasks/server.js')(gulp, config, argv);
+require('./project_tasks/scripts.js')(gulp, config, argv);
 require('./project_tasks/styles.js')(gulp, config, argv);
 
 /* ============================================================ *\
@@ -43,6 +44,7 @@ gulp.task('default', function (callback) {
     'clean',
     'fonts',
     'styles',
+    'scripts',
     'html',
     'watch',
     'browser-sync'
