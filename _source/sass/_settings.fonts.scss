@@ -1,8 +1,21 @@
 
-$f-family: sans-serif;
-$f-family-heading: 'maryann-regular', Times, Times New Roman, serif;
+$f-family:                  sans-serif;
+$f-family-heading:          'maryann-regular', Times, Times New Roman, serif;
 
-$f-base-px: 16px;
+$f-base-px:                 16px;
+
+$f-header-h1:               34px;
+$f-header-h1--large-scn:    40px;
+$f-header-h2:               28px;
+$f-header-h3:               20px;
+
+$f-supporting-text:         14px;
+
+$f-navigation--primary:     20px;
+
+$f-social-icon:             30px;
+$f-social-icon--large-scn:  50px;
+
 
 @font-face {
   font-family: 'maryann-bold';
