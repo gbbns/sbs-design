@@ -11,10 +11,6 @@
     padding: ($d-base-spacing / 2) 0;
     text-align: center;
     width: 30%;
-
-    @include respond-max($d-bp-medium) {
-
-    }
   }
 
   .c-social-link__icon {
