@@ -2682,7 +2682,7 @@ ul {
   vertical-align: middle; }
   @media screen and (max-width: 48rem) {
     .c-site__tagline {
-      font-size: 1.875rem; } }
+      font-size: 1.75rem; } }
 
 .c-site-header {
   margin-top: 10px; }
@@ -2730,7 +2730,7 @@ ul {
   @media screen and (min-width: 48rem) {
     .c-nav-primary__link {
       font-size: 1.25rem;
-      padding: 0.75rem; } }
+      padding: 1.25rem; } }
 
 .c-nav-secondary {
   margin-left: 15px; }
@@ -2750,7 +2750,7 @@ ul {
       display: block;
       font-family: "maryann-regular", Times, Times New Roman, serif;
       margin: 20px 0;
-      padding: 10px; }
+      padding: 0.625rem; }
     .c-nav-primary__nav-trigger:checked:after {
       content: 'Close menu'; }
     .c-nav-primary__nav-trigger:checked ~ .c-nav-primary {

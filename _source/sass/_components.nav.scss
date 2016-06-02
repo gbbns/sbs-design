@@ -48,8 +48,8 @@
       display: block;
 
       @include respond-min($d-bp-medium) {
-        font-size: rem(20px);
-        padding: rem(12px);
+        font-size: rem($f-navigation--primary);
+        padding: rem($d-base-spacing);
       }
     }
 
@@ -72,8 +72,8 @@
         content: 'Menu';
         display: block;
         font-family: $f-family-heading;
-        margin: 20px 0;
-        padding: 10px;
+        margin: $d-base-spacing 0;
+        padding: rem($d-base-spacing / 2);
       }
 
       &:checked {

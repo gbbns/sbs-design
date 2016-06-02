@@ -18,10 +18,10 @@
   }
 
   .c-social-link__icon {
-    font-size: rem(30px);
+    font-size: rem($f-social-icon);
 
     @include respond-min($d-bp-medium) {
-      font-size: rem(50px);
+      font-size: rem($f-social-icon--large-scn);
     }
   }
 
